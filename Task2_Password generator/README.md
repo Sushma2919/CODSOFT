@@ -1,23 +1,43 @@
-# 🧮 Calculator
+# 🔐 Password Generator
 
-A simple command-line calculator built with Python.  
-It performs basic arithmetic operations like addition, subtraction, multiplication, and division.
+A simple Python application that generates strong and random passwords. The user can specify the length of the password, and the generator will create a secure password using letters, digits, and special characters.
 
-## 🚀 Features
+---
 
-- Addition
-- Subtraction
-- Multiplication
-- Division (with division-by-zero protection)
-- User-friendly menu interface
-- Input validation
-- Loop to perform multiple calculations
+## 📌 Features
 
-## 🖥️ How to Run
+- User input for password length
+- Generates secure, random passwords
+- Includes uppercase, lowercase, numbers, and symbols
+- Simple command-line interface
 
-1. Make sure Python is installed on your system.
-2. Clone the repository or download the code.
-3. Run the script:
+---
 
-```bash
-python calculator.py
+## 🛠 Requirements
+
+- Python 3.x
+
+This project uses only standard Python libraries (`random` and `string`), so no additional packages are required.
+
+---
+
+## 🚀 How to Run
+
+1. Clone this repository or download the script:
+    ```bash
+    git clone https://github.com/yourusername/password-generator.git
+    cd password-generator
+    ```
+
+2. Run the script:
+    ```bash
+    python password_generator.py
+    ```
+
+3. Follow the on-screen instructions:
+    - Enter the desired password length when prompted.
+
+---
+
+## 📋 Example Output
+
